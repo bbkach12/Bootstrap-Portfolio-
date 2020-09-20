@@ -1,0 +1,116 @@
+body {
+  display: block;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: white;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #37dc5b;
+}
+
+nav ul li a {
+  color: #37dc5b;
+  font-size: 22px;
+  margin: auto 10px;
+}
+
+nav ul li a:hover {
+  color: #0d0550;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #37dc5b;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 50px;
+}
+
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
+#hero .col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero .img-col {
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+#hero img {
+  max-width: 130% !important;
+  width: 130%;
+}
+#hero .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+
+#hero .icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#projects .projects {
+  margin-bottom: 50px;
+}
+
+.bg-green {
+  background-color: #37dc5b !important;
+  color: #fff;
+}
+.color {
+  color: #37dc5b !important;
+}
+.card-title {
+  color: #37dc5b !important;
+}
+
+.text-muted {
+  color: #72f08d !important;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.social span {
+  color: #37dc5b;
+  font-size: 20px;
+}
+.social span i {
+  margin-right: 10px;
+  color: #030444;
+  height: 30px;
+  width: 30px;
+}
